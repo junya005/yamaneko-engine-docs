@@ -25,27 +25,28 @@
 var NAVTREE =
 [
   [ "My Project", "index.html", [
-    [ "YamanekoEngine — OpenGL ゲーム開発テンプレート", "md_README.html", [
-      [ "前提条件", "md_README.html#autotoc_md2", null ],
-      [ "セットアップ手順", "md_README.html#autotoc_md4", [
-        [ "1. リポジトリのクローン", "md_README.html#autotoc_md5", null ],
-        [ "2. vcpkg のセットアップ", "md_README.html#autotoc_md6", null ],
-        [ "3. 依存ライブラリのインストール", "md_README.html#autotoc_md7", null ],
-        [ "4. サードパーティライブラリのセットアップ", "md_README.html#autotoc_md8", null ],
-        [ "5. Visual Studio 2022 でビルド・実行", "md_README.html#autotoc_md9", null ]
-      ] ],
-      [ "</blockquote>", "md_README.html#autotoc_md10", null ],
-      [ "ディレクトリ構成", "md_README.html#autotoc_md11", null ],
-      [ "新しいプロジェクトへのカスタマイズ", "md_README.html#autotoc_md13", null ],
-      [ "使用ライブラリ", "md_README.html#autotoc_md15", null ],
-      [ "ライセンス", "md_README.html#autotoc_md17", null ]
+    [ "名前空間", "namespaces.html", [
+      [ "名前空間一覧", "namespaces.html", "namespaces_dup" ],
+      [ "名前空間メンバ", "namespacemembers.html", [
+        [ "全て", "namespacemembers.html", null ],
+        [ "関数", "namespacemembers_func.html", null ],
+        [ "列挙型", "namespacemembers_enum.html", null ]
+      ] ]
+    ] ],
+    [ "クラス", "annotated.html", [
+      [ "クラス一覧", "annotated.html", "annotated_dup" ],
+      [ "クラス索引", "classes.html", null ],
+      [ "クラス階層", "hierarchy.html", "hierarchy" ]
+    ] ],
+    [ "ファイル", "files.html", [
+      [ "ファイル一覧", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"Application_8h_source.html"
 ];
 
 var SYNCONMSG = 'クリックで同期表示が無効になります';

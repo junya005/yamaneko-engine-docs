@@ -1,18 +1,27 @@
 var indexSectionsWithContent =
 {
-  0: "12345bosvy—でのゲサセデラリ使依前新",
-  1: "oy—ゲ"
+  0: "acegilmrstuvwy",
+  1: "aceglmrstuvw",
+  2: "y",
+  3: "acgirsw",
+  4: "l"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "pages"
+  1: "classes",
+  2: "namespaces",
+  3: "functions",
+  4: "enums"
 };
 
 var indexSectionLabels =
 {
   0: "全て",
-  1: "ページ"
+  1: "クラス",
+  2: "名前空間",
+  3: "関数",
+  4: "列挙型"
 };
 
