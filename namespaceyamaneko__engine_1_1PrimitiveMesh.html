@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: yamaneko_engine::PrimitiveMesh 名前空間</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.15.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('namespaceyamaneko__engine_1_1PrimitiveMesh.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">yamaneko_engine::PrimitiveMesh 名前空間</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>エンジンのビルトインメッシュを生成する関数の定義。  
+<a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:ac3edb5667d1f2a3de0f1d1c64995d40f" id="r_ac3edb5667d1f2a3de0f1d1c64995d40f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3edb5667d1f2a3de0f1d1c64995d40f">GenerateCube</a> (std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a> &gt; &amp;vertices, std::vector&lt; unsigned int &gt; &amp;indices)</td></tr>
+<tr class="memdesc:ac3edb5667d1f2a3de0f1d1c64995d40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">キューブのメッシュデータを生成し、頂点配列とインデックス配列に書き込みます。  <br /></td></tr>
+<tr class="memitem:a01a34636572cd86a07792f914b031850" id="r_a01a34636572cd86a07792f914b031850"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01a34636572cd86a07792f914b031850">GenerateUVSphere</a> (std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a> &gt; &amp;vertices, std::vector&lt; unsigned int &gt; &amp;indices, float radius=0.5f, unsigned int sectorCount=36, unsigned int stackCount=18)</td></tr>
+<tr class="memdesc:a01a34636572cd86a07792f914b031850"><td class="mdescLeft">&#160;</td><td class="mdescRight">UV球の頂点データとインデックスデータを生成します。  <br /></td></tr>
+<tr class="memitem:aba5bad14dcab271ee37dd886dfc6d80e" id="r_aba5bad14dcab271ee37dd886dfc6d80e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba5bad14dcab271ee37dd886dfc6d80e">GeneratePlane</a> (std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a> &gt; &amp;vertices, std::vector&lt; unsigned int &gt; &amp;indices)</td></tr>
+<tr class="memdesc:aba5bad14dcab271ee37dd886dfc6d80e"><td class="mdescLeft">&#160;</td><td class="mdescRight">平面メッシュの頂点データとインデックスデータを生成します。  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>エンジンのビルトインメッシュを生成する関数の定義。 </p>
+<p>エンジンのビルトインメッシュを生成する関数の宣言。</p>
+<p>&lt;file&gt;PrimitiveMesh.cpp&lt;/file&gt;</p>
+<p>Copyright (c) 2026 junya005</p>
+<p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
+<p>&lt;file&gt;<a class="el" href="PrimitiveMesh_8h_source.html">PrimitiveMesh.h</a>&lt;/file&gt;</p>
+<p>Copyright (c) 2026 junya005</p>
+<p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
+<p>基本的な図形のメッシュデータを生成する関数群を提供する名前空間です。 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">関数詳解</h2>
+<a id="ac3edb5667d1f2a3de0f1d1c64995d40f" name="ac3edb5667d1f2a3de0f1d1c64995d40f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3edb5667d1f2a3de0f1d1c64995d40f">&#9670;&#160;</a></span>GenerateCube()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::PrimitiveMesh::GenerateCube </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vertices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; unsigned int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>キューブのメッシュデータを生成し、頂点配列とインデックス配列に書き込みます。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertices</td><td>生成されたキューブの頂点データを格納する配列への参照です。</td></tr>
+    <tr><td class="paramname">indices</td><td>生成されたキューブのインデックスデータを格納する配列への参照です。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aba5bad14dcab271ee37dd886dfc6d80e" name="aba5bad14dcab271ee37dd886dfc6d80e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba5bad14dcab271ee37dd886dfc6d80e">&#9670;&#160;</a></span>GeneratePlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::PrimitiveMesh::GeneratePlane </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vertices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; unsigned int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>平面メッシュの頂点データとインデックスデータを生成します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertices</td><td>生成した頂点を格納する <span class="tt"><a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a></span> 配列への参照です。</td></tr>
+    <tr><td class="paramname">indices</td><td>生成したインデックスを格納する符号なし整数配列への参照です。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a01a34636572cd86a07792f914b031850" name="a01a34636572cd86a07792f914b031850"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a34636572cd86a07792f914b031850">&#9670;&#160;</a></span>GenerateUVSphere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::PrimitiveMesh::GenerateUVSphere </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vertices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; unsigned int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indices</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.5f</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>sectorCount</em></span><span class="paramdefsep"> = </span><span class="paramdefval">36</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>stackCount</em></span><span class="paramdefsep"> = </span><span class="paramdefval">18</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>UV球の頂点データとインデックスデータを生成します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertices</td><td>生成した頂点を格納する配列への参照です。</td></tr>
+    <tr><td class="paramname">indices</td><td>生成したインデックスを格納する配列への参照です。</td></tr>
+    <tr><td class="paramname">radius</td><td>球の半径です。既定値は 0.5f です。</td></tr>
+    <tr><td class="paramname">sectorCount</td><td>経度方向の分割数です。値を大きくすると横方向の滑らかさが増します。既定値は 36 です。</td></tr>
+    <tr><td class="paramname">stackCount</td><td>緯度方向の分割数です。値を大きくすると縦方向の滑らかさが増します。既定値は 18 です。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespaceyamaneko__engine.html">yamaneko_engine</a></li><li class="navelem"><a href="namespaceyamaneko__engine_1_1PrimitiveMesh.html">PrimitiveMesh</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
+  </ul>
+</div>
+</body>
+</html>

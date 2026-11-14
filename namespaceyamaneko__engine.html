@@ -3,16 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>My Project: yamaneko_engine 名前空間</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
 <script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -33,21 +34,20 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 構築: Doxygen 1.9.8 -->
+<!-- 構築: Doxygen 1.15.0 -->
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
 </script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('',true,false,'search.php','検索');
-  $(document).ready(function() { init_search(); });
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
 });
-/* @license-end */
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
@@ -62,10 +62,9 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('namespaceyamaneko__engine.html',''); initResizable(); });
-/* @license-end */
+$(function(){initNavTree('namespaceyamaneko__engine.html','',''); });
 </script>
+<div id="container">
 <div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -89,125 +88,82 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine.html',''); i
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#namespaces">名前空間</a> &#124;
-<a href="#nested-classes">クラス</a> &#124;
-<a href="#typedef-members">型定義</a> &#124;
-<a href="#enum-members">列挙型</a> &#124;
-<a href="#func-members">関数</a>  </div>
   <div class="headertitle"><div class="title">yamaneko_engine 名前空間</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>glmのエイリアスと数学的関数の定義。  
-<a href="namespaceyamaneko__engine.html#details">[詳解]</a></p>
+<a href="#details">[詳解]</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 名前空間</h2></td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1Config" id="r_namespaceyamaneko__engine_1_1Config"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Config.html">Config</a></td></tr>
+<tr class="memitem:Config" id="r_Config"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Config.html">Config</a></td></tr>
 <tr class="memdesc:namespaceyamaneko__engine_1_1Config"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンジンの設定に関する構造体、クラスの定義。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1FileSystem" id="r_namespaceyamaneko__engine_1_1FileSystem"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html">FileSystem</a></td></tr>
-<tr class="memdesc:namespaceyamaneko__engine_1_1FileSystem"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルの読み書き及びユーティリティに関するクラスの実装。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1ImGuiContext" id="r_namespaceyamaneko__engine_1_1ImGuiContext"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1ImGuiContext.html">ImGuiContext</a></td></tr>
-<tr class="memdesc:namespaceyamaneko__engine_1_1ImGuiContext"><td class="mdescLeft">&#160;</td><td class="mdescRight">ImGuiの機能をラップしたクラスの実装。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1Input" id="r_namespaceyamaneko__engine_1_1Input"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Input.html">Input</a></td></tr>
-<tr class="memdesc:namespaceyamaneko__engine_1_1Input"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDLのAPIを用いてハードウェア入力を取得するクラスの実装 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1Log" id="r_namespaceyamaneko__engine_1_1Log"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html">Log</a></td></tr>
+<tr class="memitem:Log" id="r_Log"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html">Log</a></td></tr>
 <tr class="memdesc:namespaceyamaneko__engine_1_1Log"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログに関する関数の実装。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1Physics" id="r_namespaceyamaneko__engine_1_1Physics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Physics.html">Physics</a></td></tr>
-<tr class="memdesc:namespaceyamaneko__engine_1_1Physics"><td class="mdescLeft">&#160;</td><td class="mdescRight">衝突判定ロジックの定義。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1Random" id="r_namespaceyamaneko__engine_1_1Random"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Random.html">Random</a></td></tr>
+<tr class="memitem:FileSystem" id="r_FileSystem"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html">FileSystem</a></td></tr>
+<tr class="memdesc:namespaceyamaneko__engine_1_1FileSystem"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルの読み書き及びユーティリティに関するクラスの実装。 <br /></td></tr>
+<tr class="memitem:Random" id="r_Random"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Random.html">Random</a></td></tr>
 <tr class="memdesc:namespaceyamaneko__engine_1_1Random"><td class="mdescLeft">&#160;</td><td class="mdescRight">乱数生成に関する関数の実装。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1RHI" id="r_namespaceyamaneko__engine_1_1RHI"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1RHI.html">RHI</a></td></tr>
-<tr class="memdesc:namespaceyamaneko__engine_1_1RHI"><td class="mdescLeft">&#160;</td><td class="mdescRight">RHIモジュールの実装。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1SceneManager" id="r_namespaceyamaneko__engine_1_1SceneManager"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1SceneManager.html">SceneManager</a></td></tr>
-<tr class="memdesc:namespaceyamaneko__engine_1_1SceneManager"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンマネージャークラスの実装。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1Time" id="r_namespaceyamaneko__engine_1_1Time"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Time.html">Time</a></td></tr>
+<tr class="memitem:ImGuiContext" id="r_ImGuiContext"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1ImGuiContext.html">ImGuiContext</a></td></tr>
+<tr class="memdesc:namespaceyamaneko__engine_1_1ImGuiContext"><td class="mdescLeft">&#160;</td><td class="mdescRight">ImGuiの機能をラップしたクラスの実装。 <br /></td></tr>
+<tr class="memitem:Input" id="r_Input"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Input.html">Input</a></td></tr>
+<tr class="memdesc:namespaceyamaneko__engine_1_1Input"><td class="mdescLeft">&#160;</td><td class="mdescRight">SDLのAPIを用いてハードウェア入力を取得するクラスの実装 <br /></td></tr>
+<tr class="memitem:Time" id="r_Time"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Time.html">Time</a></td></tr>
 <tr class="memdesc:namespaceyamaneko__engine_1_1Time"><td class="mdescLeft">&#160;</td><td class="mdescRight">時間に関する機能を持ったクラスの実装。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceyamaneko__engine_1_1Window" id="r_namespaceyamaneko__engine_1_1Window"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Window.html">Window</a></td></tr>
+<tr class="memitem:Window" id="r_Window"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Window.html">Window</a></td></tr>
 <tr class="memdesc:namespaceyamaneko__engine_1_1Window"><td class="mdescLeft">&#160;</td><td class="mdescRight">ウィンドウ操作に関する関数の実装。 <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:PrimitiveMesh" id="r_PrimitiveMesh"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1PrimitiveMesh.html">PrimitiveMesh</a></td></tr>
+<tr class="memdesc:namespaceyamaneko__engine_1_1PrimitiveMesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンジンのビルトインメッシュを生成する関数の定義。 <br /></td></tr>
+<tr class="memitem:RHI" id="r_RHI"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1RHI.html">RHI</a></td></tr>
+<tr class="memdesc:namespaceyamaneko__engine_1_1RHI"><td class="mdescLeft">&#160;</td><td class="mdescRight">RHIモジュールの実装。 <br /></td></tr>
+<tr class="memitem:Physics" id="r_Physics"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Physics.html">Physics</a></td></tr>
+<tr class="memdesc:namespaceyamaneko__engine_1_1Physics"><td class="mdescLeft">&#160;</td><td class="mdescRight">衝突判定ロジックの定義。 <br /></td></tr>
+<tr class="memitem:SceneManager" id="r_SceneManager"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1SceneManager.html">SceneManager</a></td></tr>
+<tr class="memdesc:namespaceyamaneko__engine_1_1SceneManager"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンマネージャークラスの実装。 <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 クラス</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Application.html">Application</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Camera.html">Camera</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLBuffer.html">GLBuffer</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLCommandList.html">GLCommandList</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLDevice.html">GLDevice</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLShader.html">GLShader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLTexture.html">GLTexture</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1MediaLoader.html">MediaLoader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Mesh.html">Mesh</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Model.html">Model</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Module.html">Module</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHIBuffer.html">RHIBuffer</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHICommandList.html">RHICommandList</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHIDevice.html">RHIDevice</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structyamaneko__engine_1_1RHIDeviceDesc.html">RHIDeviceDesc</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHIShader.html">RHIShader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHITexture.html">RHITexture</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1SubModule.html">SubModule</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structyamaneko__engine_1_1Transform.html">Transform</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1UIRenderer.html">UIRenderer</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1ViewInfo.html">ViewInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:Transform" id="r_Transform"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structyamaneko__engine_1_1Transform.html">Transform</a></td></tr>
+<tr class="memitem:ViewInfo" id="r_ViewInfo"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1ViewInfo.html">ViewInfo</a></td></tr>
+<tr class="memitem:Application" id="r_Application"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Application.html">Application</a></td></tr>
+<tr class="memitem:MediaLoader" id="r_MediaLoader"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1MediaLoader.html">MediaLoader</a></td></tr>
+<tr class="memitem:Mesh" id="r_Mesh"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Mesh.html">Mesh</a></td></tr>
+<tr class="memitem:Model" id="r_Model"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Model.html">Model</a></td></tr>
+<tr class="memitem:Vertex" id="r_Vertex"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structyamaneko__engine_1_1Vertex.html">Vertex</a></td></tr>
+<tr class="memitem:UIRenderer" id="r_UIRenderer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1UIRenderer.html">UIRenderer</a></td></tr>
+<tr class="memitem:GLBuffer" id="r_GLBuffer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLBuffer.html">GLBuffer</a></td></tr>
+<tr class="memitem:GLCommandList" id="r_GLCommandList"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLCommandList.html">GLCommandList</a></td></tr>
+<tr class="memitem:GLDevice" id="r_GLDevice"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLDevice.html">GLDevice</a></td></tr>
+<tr class="memitem:GLShader" id="r_GLShader"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLShader.html">GLShader</a></td></tr>
+<tr class="memitem:GLTexture" id="r_GLTexture"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GLTexture.html">GLTexture</a></td></tr>
+<tr class="memitem:RHIBuffer" id="r_RHIBuffer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHIBuffer.html">RHIBuffer</a></td></tr>
+<tr class="memitem:RHICommandList" id="r_RHICommandList"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHICommandList.html">RHICommandList</a></td></tr>
+<tr class="memitem:RHIDevice" id="r_RHIDevice"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHIDevice.html">RHIDevice</a></td></tr>
+<tr class="memitem:RHIDeviceDesc" id="r_RHIDeviceDesc"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structyamaneko__engine_1_1RHIDeviceDesc.html">RHIDeviceDesc</a></td></tr>
+<tr class="memitem:RHIShader" id="r_RHIShader"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHIShader.html">RHIShader</a></td></tr>
+<tr class="memitem:RHITexture" id="r_RHITexture"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1RHITexture.html">RHITexture</a></td></tr>
+<tr class="memitem:GameObject" id="r_GameObject"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a></td></tr>
+<tr class="memitem:Camera" id="r_Camera"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Camera.html">Camera</a></td></tr>
+<tr class="memitem:MeshRenderModule" id="r_MeshRenderModule"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1MeshRenderModule.html">MeshRenderModule</a></td></tr>
+<tr class="memitem:Module" id="r_Module"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Module.html">Module</a></td></tr>
+<tr class="memitem:SubModule" id="r_SubModule"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1SubModule.html">SubModule</a></td></tr>
+<tr class="memitem:Scene" id="r_Scene"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 型定義</h2></td></tr>
-<tr class="memitem:a33effe9b3a1cb2935f734537bd3f2d2d" id="r_a33effe9b3a1cb2935f734537bd3f2d2d"><td class="memItemLeft" align="right" valign="top"><a id="a33effe9b3a1cb2935f734537bd3f2d2d" name="a33effe9b3a1cb2935f734537bd3f2d2d"></a>
+<tr class="memitem:a7dd6264f5fd33047ae2d40b8b9fe638a" id="r_a7dd6264f5fd33047ae2d40b8b9fe638a"><td class="memItemLeft" align="right" valign="top"><a id="a7dd6264f5fd33047ae2d40b8b9fe638a" name="a7dd6264f5fd33047ae2d40b8b9fe638a"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector2</b> = glm::vec2</td></tr>
-<tr class="separator:a33effe9b3a1cb2935f734537bd3f2d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afda553ffebb40e64a3cf392587931fc7" id="r_afda553ffebb40e64a3cf392587931fc7"><td class="memItemLeft" align="right" valign="top"><a id="afda553ffebb40e64a3cf392587931fc7" name="afda553ffebb40e64a3cf392587931fc7"></a>
+<tr class="memitem:a2b7f3dd83d198e7bed1f521f10667635" id="r_a2b7f3dd83d198e7bed1f521f10667635"><td class="memItemLeft" align="right" valign="top"><a id="a2b7f3dd83d198e7bed1f521f10667635" name="a2b7f3dd83d198e7bed1f521f10667635"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector3</b> = glm::vec3</td></tr>
-<tr class="separator:afda553ffebb40e64a3cf392587931fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04b908dc926b8d57cd50001dbf8c8db2" id="r_a04b908dc926b8d57cd50001dbf8c8db2"><td class="memItemLeft" align="right" valign="top"><a id="a04b908dc926b8d57cd50001dbf8c8db2" name="a04b908dc926b8d57cd50001dbf8c8db2"></a>
+<tr class="memitem:a59a00c764315760b285f138b78ad6060" id="r_a59a00c764315760b285f138b78ad6060"><td class="memItemLeft" align="right" valign="top"><a id="a59a00c764315760b285f138b78ad6060" name="a59a00c764315760b285f138b78ad6060"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector4</b> = glm::vec4</td></tr>
-<tr class="separator:a04b908dc926b8d57cd50001dbf8c8db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78ae7965df61f5ee0cbab74c5251e3d4" id="r_a78ae7965df61f5ee0cbab74c5251e3d4"><td class="memItemLeft" align="right" valign="top"><a id="a78ae7965df61f5ee0cbab74c5251e3d4" name="a78ae7965df61f5ee0cbab74c5251e3d4"></a>
+<tr class="memitem:a4a4c2b67e5d13223b0598a82c47620be" id="r_a4a4c2b67e5d13223b0598a82c47620be"><td class="memItemLeft" align="right" valign="top"><a id="a4a4c2b67e5d13223b0598a82c47620be" name="a4a4c2b67e5d13223b0598a82c47620be"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Vector2Int</b> = glm::ivec2</td></tr>
-<tr class="separator:a78ae7965df61f5ee0cbab74c5251e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a823513e73ef98ebaad0427f2cc708446" id="r_a823513e73ef98ebaad0427f2cc708446"><td class="memItemLeft" align="right" valign="top"><a id="a823513e73ef98ebaad0427f2cc708446" name="a823513e73ef98ebaad0427f2cc708446"></a>
+<tr class="memitem:a358ac5612e2aa04eb49341eb79baae9b" id="r_a358ac5612e2aa04eb49341eb79baae9b"><td class="memItemLeft" align="right" valign="top"><a id="a358ac5612e2aa04eb49341eb79baae9b" name="a358ac5612e2aa04eb49341eb79baae9b"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Matrix4</b> = glm::mat4</td></tr>
-<tr class="separator:a823513e73ef98ebaad0427f2cc708446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 列挙型</h2></td></tr>
 <tr class="memitem:af7892d5771f3e4af03f3421bd687327a" id="r_af7892d5771f3e4af03f3421bd687327a"><td class="memItemLeft" align="right" valign="top"><a id="af7892d5771f3e4af03f3421bd687327a" name="af7892d5771f3e4af03f3421bd687327a"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>MoveDirection</b> { <br />
 &#160;&#160;<b>FORWARD</b>
@@ -219,28 +175,25 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Matrix4</b> = glm::m
 , <b>DOWN</b>
 <br />
  }</td></tr>
-<tr class="separator:af7892d5771f3e4af03f3421bd687327a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72659060ef4cf450a2e21b0339afaf45" id="r_a72659060ef4cf450a2e21b0339afaf45"><td class="memItemLeft" align="right" valign="top"><a id="a72659060ef4cf450a2e21b0339afaf45" name="a72659060ef4cf450a2e21b0339afaf45"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>TextureType</b> { <b>Diffuse</b>
 , <b>Specular</b>
  }</td></tr>
-<tr class="separator:a72659060ef4cf450a2e21b0339afaf45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 関数</h2></td></tr>
-<tr class="memitem:af82d306c6f45252383b54d764d0f99c7" id="r_af82d306c6f45252383b54d764d0f99c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyamaneko__engine_1_1Application.html">Application</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine.html#af82d306c6f45252383b54d764d0f99c7">CreateApplication</a> ()</td></tr>
+<tr class="memitem:af82d306c6f45252383b54d764d0f99c7" id="r_af82d306c6f45252383b54d764d0f99c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyamaneko__engine_1_1Application.html">Application</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af82d306c6f45252383b54d764d0f99c7">CreateApplication</a> ()</td></tr>
 <tr class="memdesc:af82d306c6f45252383b54d764d0f99c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">エントリーポイントに関する関数の実装。  <br /></td></tr>
-<tr class="separator:af82d306c6f45252383b54d764d0f99c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bf52f1aa35d4b07781d6ae3697c2afa" id="r_a2bf52f1aa35d4b07781d6ae3697c2afa"><td class="memItemLeft" align="right" valign="top"><a id="a2bf52f1aa35d4b07781d6ae3697c2afa" name="a2bf52f1aa35d4b07781d6ae3697c2afa"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>TextureTypeToString</b> (TextureType type)</td></tr>
-<tr class="separator:a2bf52f1aa35d4b07781d6ae3697c2afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
 <div class="textblock"><p>glmのエイリアスと数学的関数の定義。 </p>
 <p>シーンクラスの宣言。</p>
 <p>サブモジュールクラスの宣言。</p>
 <p>サブモジュールクラスの実装。</p>
 <p>モジュールクラスの宣言。</p>
 <p>モジュールクラスの実装。</p>
+<p>メッシュレンダリングモジュールクラスの宣言。</p>
 <p>カメラモジュールクラスの宣言。</p>
 <p>ゲームオブジェクトクラスの定義。</p>
 <p>テクスチャ操作に関するクラスの定義。</p>
@@ -345,6 +298,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>TextureTypeToS
 <p>&lt;file&gt;<a class="el" href="Camera_8h_source.html">Camera.h</a>&lt;/file&gt;</p>
 <p>Copyright (c) 2026 junya005</p>
 <p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
+<p>&lt;file&gt;<a class="el" href="MeshRenderModule_8h_source.html">MeshRenderModule.h</a>&lt;/file&gt;</p>
+<p>Copyright (c) 2026 junya005</p>
+<p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
 <p>&lt;file&gt;Module.cpp&lt;/file&gt;</p>
 <p>Copyright (c) 2026 junya005</p>
 <p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
@@ -360,7 +316,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>TextureTypeToS
 <p>&lt;file&gt;<a class="el" href="Scene_8h_source.html">Scene.h</a>&lt;/file&gt;</p>
 <p>Copyright (c) 2026 junya005</p>
 <p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
-</div><h2 class="groupheader">関数詳解</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">関数詳解</h2>
 <a id="af82d306c6f45252383b54d764d0f99c7" name="af82d306c6f45252383b54d764d0f99c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af82d306c6f45252383b54d764d0f99c7">&#9670;&#160;</a></span>CreateApplication()</h2>
 
@@ -370,7 +326,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>TextureTypeToS
         <tr>
           <td class="memname"><a class="el" href="classyamaneko__engine_1_1Application.html">yamaneko_engine::Application</a> * yamaneko_engine::CreateApplication </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -385,11 +341,19 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>TextureTypeToS
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceyamaneko__engine.html">yamaneko_engine</a></li>
-    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="navelem"><a href="namespaceyamaneko__engine.html">yamaneko_engine</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>
 </body>

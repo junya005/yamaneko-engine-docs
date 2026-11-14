@@ -8,7 +8,8 @@ var hierarchy =
     [ "yamaneko_engine::Mesh", "classyamaneko__engine_1_1Mesh.html", null ],
     [ "yamaneko_engine::Model", "classyamaneko__engine_1_1Model.html", null ],
     [ "yamaneko_engine::Module", "classyamaneko__engine_1_1Module.html", [
-      [ "yamaneko_engine::Camera", "classyamaneko__engine_1_1Camera.html", null ]
+      [ "yamaneko_engine::Camera", "classyamaneko__engine_1_1Camera.html", null ],
+      [ "yamaneko_engine::MeshRenderModule", "classyamaneko__engine_1_1MeshRenderModule.html", null ]
     ] ],
     [ "yamaneko_engine::RHIBuffer", "classyamaneko__engine_1_1RHIBuffer.html", [
       [ "yamaneko_engine::GLBuffer", "classyamaneko__engine_1_1GLBuffer.html", null ]

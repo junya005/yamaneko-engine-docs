@@ -3,16 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>My Project: yamaneko_engine::FileSystem 名前空間</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
 <script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -33,21 +34,20 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 構築: Doxygen 1.9.8 -->
+<!-- 構築: Doxygen 1.15.0 -->
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
 </script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('',true,false,'search.php','検索');
-  $(document).ready(function() { init_search(); });
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
 });
-/* @license-end */
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
@@ -62,10 +62,9 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSystem.html',''); initResizable(); });
-/* @license-end */
+$(function(){initNavTree('namespaceyamaneko__engine_1_1FileSystem.html','',''); });
 </script>
+<div id="container">
 <div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -89,37 +88,29 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">関数</a>  </div>
   <div class="headertitle"><div class="title">yamaneko_engine::FileSystem 名前空間</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>ファイルの読み書き及びユーティリティに関するクラスの実装。  
-<a href="namespaceyamaneko__engine_1_1FileSystem.html#details">[詳解]</a></p>
+<a href="#details">[詳解]</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 関数</h2></td></tr>
-<tr class="memitem:a23933ae16d6a82c67096ed59d626f308" id="r_a23933ae16d6a82c67096ed59d626f308"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html#a23933ae16d6a82c67096ed59d626f308">ReadAllText</a> (const std::string &amp;path)</td></tr>
+<tr class="memitem:a23933ae16d6a82c67096ed59d626f308" id="r_a23933ae16d6a82c67096ed59d626f308"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23933ae16d6a82c67096ed59d626f308">ReadAllText</a> (const std::string &amp;path)</td></tr>
 <tr class="memdesc:a23933ae16d6a82c67096ed59d626f308"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたパスのファイルを文字列として取得する  <br /></td></tr>
-<tr class="separator:a23933ae16d6a82c67096ed59d626f308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8645b499214ebdcdfa39f66226a67b7" id="r_ae8645b499214ebdcdfa39f66226a67b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html#ae8645b499214ebdcdfa39f66226a67b7">WriteAllText</a> (const std::string &amp;path, const std::string &amp;text)</td></tr>
+<tr class="memitem:ae8645b499214ebdcdfa39f66226a67b7" id="r_ae8645b499214ebdcdfa39f66226a67b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8645b499214ebdcdfa39f66226a67b7">WriteAllText</a> (const std::string &amp;path, const std::string &amp;text)</td></tr>
 <tr class="memdesc:ae8645b499214ebdcdfa39f66226a67b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたパスのファイルに文字列を書き込む  <br /></td></tr>
-<tr class="separator:ae8645b499214ebdcdfa39f66226a67b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25d53871667f793d9b17627fca990750" id="r_a25d53871667f793d9b17627fca990750"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html#a25d53871667f793d9b17627fca990750">AppendText</a> (const std::string &amp;path, const std::string &amp;text)</td></tr>
+<tr class="memitem:a25d53871667f793d9b17627fca990750" id="r_a25d53871667f793d9b17627fca990750"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25d53871667f793d9b17627fca990750">AppendText</a> (const std::string &amp;path, const std::string &amp;text)</td></tr>
 <tr class="memdesc:a25d53871667f793d9b17627fca990750"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたパスのファイルの末尾に文字列を書き込む  <br /></td></tr>
-<tr class="separator:a25d53871667f793d9b17627fca990750"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27b35fd91bc60c991bf41918f0d8cc8a" id="r_a27b35fd91bc60c991bf41918f0d8cc8a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html#a27b35fd91bc60c991bf41918f0d8cc8a">ReadAllBytes</a> (const std::string &amp;path)</td></tr>
+<tr class="memitem:a27b35fd91bc60c991bf41918f0d8cc8a" id="r_a27b35fd91bc60c991bf41918f0d8cc8a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27b35fd91bc60c991bf41918f0d8cc8a">ReadAllBytes</a> (const std::string &amp;path)</td></tr>
 <tr class="memdesc:a27b35fd91bc60c991bf41918f0d8cc8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたパスのファイルをバイトとして取得する  <br /></td></tr>
-<tr class="separator:a27b35fd91bc60c991bf41918f0d8cc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa0f05bc989ec07190c073b5716e4ced" id="r_afa0f05bc989ec07190c073b5716e4ced"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html#afa0f05bc989ec07190c073b5716e4ced">WriteAllBytes</a> (const std::string &amp;path, const std::vector&lt; char &gt; &amp;bytes)</td></tr>
+<tr class="memitem:afa0f05bc989ec07190c073b5716e4ced" id="r_afa0f05bc989ec07190c073b5716e4ced"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa0f05bc989ec07190c073b5716e4ced">WriteAllBytes</a> (const std::string &amp;path, const std::vector&lt; char &gt; &amp;bytes)</td></tr>
 <tr class="memdesc:afa0f05bc989ec07190c073b5716e4ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたパスのファイルにバイトを書き込む  <br /></td></tr>
-<tr class="separator:afa0f05bc989ec07190c073b5716e4ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bc7abe7e45e48910dd185e266883b9e" id="r_a5bc7abe7e45e48910dd185e266883b9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html#a5bc7abe7e45e48910dd185e266883b9e">IsExists</a> (const std::string &amp;path)</td></tr>
+<tr class="memitem:a5bc7abe7e45e48910dd185e266883b9e" id="r_a5bc7abe7e45e48910dd185e266883b9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bc7abe7e45e48910dd185e266883b9e">IsExists</a> (const std::string &amp;path)</td></tr>
 <tr class="memdesc:a5bc7abe7e45e48910dd185e266883b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたパスのファイルが存在するか確認する  <br /></td></tr>
-<tr class="separator:a5bc7abe7e45e48910dd185e266883b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
 <div class="textblock"><p>ファイルの読み書き及びユーティリティに関するクラスの実装。 </p>
 <p>ファイルの読み書き及びユーティリティに関するクラスの宣言。</p>
 <p>&lt;file&gt;FileSystem.cpp&lt;/file&gt;</p>
@@ -128,7 +119,7 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
 <p>&lt;file&gt;<a class="el" href="FileSystem_8h_source.html">FileSystem.h</a>&lt;/file&gt;</p>
 <p>Copyright (c) 2026 junya005</p>
 <p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
-</div><h2 class="groupheader">関数詳解</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">関数詳解</h2>
 <a id="a25d53871667f793d9b17627fca990750" name="a25d53871667f793d9b17627fca990750"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25d53871667f793d9b17627fca990750">&#9670;&#160;</a></span>AppendText()</h2>
 
@@ -138,19 +129,12 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
         <tr>
           <td class="memname">bool yamaneko_engine::FileSystem::AppendText </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>text</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -176,8 +160,7 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
         <tr>
           <td class="memname">bool yamaneko_engine::FileSystem::IsExists </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -203,8 +186,7 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
         <tr>
           <td class="memname">std::vector&lt; char &gt; yamaneko_engine::FileSystem::ReadAllBytes </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -230,8 +212,7 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
         <tr>
           <td class="memname">std::string yamaneko_engine::FileSystem::ReadAllText </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -257,19 +238,12 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
         <tr>
           <td class="memname">bool yamaneko_engine::FileSystem::WriteAllBytes </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; char &gt; &amp;&#160;</td>
-          <td class="paramname"><em>bytes</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">const std::vector&lt; char &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -295,19 +269,12 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
         <tr>
           <td class="memname">bool yamaneko_engine::FileSystem::WriteAllText </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>text</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -326,11 +293,19 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1FileSyste
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceyamaneko__engine.html">yamaneko_engine</a></li><li class="navelem"><a class="el" href="namespaceyamaneko__engine_1_1FileSystem.html">FileSystem</a></li>
-    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="navelem"><a href="namespaceyamaneko__engine.html">yamaneko_engine</a></li><li class="navelem"><a href="namespaceyamaneko__engine_1_1FileSystem.html">FileSystem</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>
 </body>

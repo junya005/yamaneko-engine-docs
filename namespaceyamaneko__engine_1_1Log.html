@@ -3,16 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>My Project: yamaneko_engine::Log 名前空間</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
 <script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -33,21 +34,20 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 構築: Doxygen 1.9.8 -->
+<!-- 構築: Doxygen 1.15.0 -->
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
 </script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('',true,false,'search.php','検索');
-  $(document).ready(function() { init_search(); });
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
 });
-/* @license-end */
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
@@ -62,10 +62,9 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1Log.html',''); initResizable(); });
-/* @license-end */
+$(function(){initNavTree('namespaceyamaneko__engine_1_1Log.html','',''); });
 </script>
+<div id="container">
 <div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -89,26 +88,21 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1Log.html'
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">クラス</a> &#124;
-<a href="#enum-members">列挙型</a> &#124;
-<a href="#func-members">関数</a>  </div>
   <div class="headertitle"><div class="title">yamaneko_engine::Log 名前空間</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>ログに関する関数の実装。  
-<a href="namespaceyamaneko__engine_1_1Log.html#details">[詳解]</a></p>
+<a href="#details">[詳解]</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 クラス</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structyamaneko__engine_1_1Log_1_1LogEntry.html">LogEntry</a></td></tr>
+<tr class="memitem:LogEntry" id="r_LogEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structyamaneko__engine_1_1Log_1_1LogEntry.html">LogEntry</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログの出力に必要なデータの構造体  <a href="structyamaneko__engine_1_1Log_1_1LogEntry.html#details">[詳解]</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 列挙型</h2></td></tr>
-<tr class="memitem:abd235ea091bf6423a94baa3bac49f982" id="r_abd235ea091bf6423a94baa3bac49f982"><td class="memItemLeft" align="right" valign="top"><a id="abd235ea091bf6423a94baa3bac49f982" name="abd235ea091bf6423a94baa3bac49f982"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> { <br />
+<tr class="memitem:abd235ea091bf6423a94baa3bac49f982" id="r_abd235ea091bf6423a94baa3bac49f982"><td class="memItemLeft" align="right" valign="top"><a id="abd235ea091bf6423a94baa3bac49f982" name="abd235ea091bf6423a94baa3bac49f982"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> { <br />
 &#160;&#160;<b>Trace</b>
 , <b>Debug</b>
 , <b>Info</b>
@@ -119,41 +113,33 @@ $(document).ready(function(){initNavTree('namespaceyamaneko__engine_1_1Log.html'
 <br />
  }</td></tr>
 <tr class="memdesc:abd235ea091bf6423a94baa3bac49f982"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログのレベル <br /></td></tr>
-<tr class="separator:abd235ea091bf6423a94baa3bac49f982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 関数</h2></td></tr>
-<tr class="memitem:a37e7c7f85bb6fb880de84731cb2b3ffe" id="r_a37e7c7f85bb6fb880de84731cb2b3ffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#a37e7c7f85bb6fb880de84731cb2b3ffe">SetMinimumLevel</a> (<a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> level)</td></tr>
+<tr class="memitem:a37e7c7f85bb6fb880de84731cb2b3ffe" id="r_a37e7c7f85bb6fb880de84731cb2b3ffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37e7c7f85bb6fb880de84731cb2b3ffe">SetMinimumLevel</a> (<a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> level)</td></tr>
 <tr class="memdesc:a37e7c7f85bb6fb880de84731cb2b3ffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログの最低レベルを設定します  <br /></td></tr>
-<tr class="separator:a37e7c7f85bb6fb880de84731cb2b3ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a773345fc15bbb6221545d00989932738" id="r_a773345fc15bbb6221545d00989932738"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#a773345fc15bbb6221545d00989932738">Initialize</a> (std::size_t capacity)</td></tr>
+<tr class="memitem:a773345fc15bbb6221545d00989932738" id="r_a773345fc15bbb6221545d00989932738"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a773345fc15bbb6221545d00989932738">Initialize</a> (std::size_t capacity)</td></tr>
 <tr class="memdesc:a773345fc15bbb6221545d00989932738"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログシステムを初期化します  <br /></td></tr>
-<tr class="separator:a773345fc15bbb6221545d00989932738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae40529107e3df0aed4ed121f0a005f17" id="r_ae40529107e3df0aed4ed121f0a005f17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#ae40529107e3df0aed4ed121f0a005f17">Write</a> (<a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> level, std::string_view category, std::string_view message)</td></tr>
+<tr class="memitem:ae40529107e3df0aed4ed121f0a005f17" id="r_ae40529107e3df0aed4ed121f0a005f17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae40529107e3df0aed4ed121f0a005f17">Write</a> (<a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> level, std::string_view category, std::string_view message)</td></tr>
 <tr class="memdesc:ae40529107e3df0aed4ed121f0a005f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログを書きます  <br /></td></tr>
-<tr class="separator:ae40529107e3df0aed4ed121f0a005f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9398fb377073f755759ced6e1e0b91b9" id="r_a9398fb377073f755759ced6e1e0b91b9"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a9398fb377073f755759ced6e1e0b91b9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#a9398fb377073f755759ced6e1e0b91b9">Writef</a> (<a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> level, std::string_view category, std::format_string&lt; Args... &gt; format, Args &amp;&amp;... args)</td></tr>
+<tr class="memitem:a9398fb377073f755759ced6e1e0b91b9 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9398fb377073f755759ced6e1e0b91b9">Writef</a> (<a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> level, std::string_view category, std::format_string&lt; Args... &gt; format, Args &amp;&amp;... args)</td></tr>
 <tr class="memdesc:a9398fb377073f755759ced6e1e0b91b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">数値の中身をログとして出力します  <br /></td></tr>
-<tr class="separator:a9398fb377073f755759ced6e1e0b91b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e7570644bf18986ee9917d49a3f1e7e" id="r_a0e7570644bf18986ee9917d49a3f1e7e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Log_1_1LogEntry.html">LogEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#a0e7570644bf18986ee9917d49a3f1e7e">Snapshot</a> ()</td></tr>
+<tr class="memitem:a0e7570644bf18986ee9917d49a3f1e7e" id="r_a0e7570644bf18986ee9917d49a3f1e7e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Log_1_1LogEntry.html">LogEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e7570644bf18986ee9917d49a3f1e7e">Snapshot</a> ()</td></tr>
 <tr class="memdesc:a0e7570644bf18986ee9917d49a3f1e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログ履歴をコピーして返します。  <br /></td></tr>
-<tr class="separator:a0e7570644bf18986ee9917d49a3f1e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c1ffc987c52ece7a883cc2cc64fc72c" id="r_a3c1ffc987c52ece7a883cc2cc64fc72c"><td class="memItemLeft" align="right" valign="top"><a id="a3c1ffc987c52ece7a883cc2cc64fc72c" name="a3c1ffc987c52ece7a883cc2cc64fc72c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr>
 <tr class="memdesc:a3c1ffc987c52ece7a883cc2cc64fc72c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログ履歴を削除します <br /></td></tr>
-<tr class="separator:a3c1ffc987c52ece7a883cc2cc64fc72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a777dbcdf81bca7126ba17c8f2f8fd096" id="r_a777dbcdf81bca7126ba17c8f2f8fd096"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#a777dbcdf81bca7126ba17c8f2f8fd096">GetLogLevelName</a> (<a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> level) noexcept</td></tr>
+<tr class="memitem:a777dbcdf81bca7126ba17c8f2f8fd096" id="r_a777dbcdf81bca7126ba17c8f2f8fd096"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a777dbcdf81bca7126ba17c8f2f8fd096">GetLogLevelName</a> (<a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a> level) noexcept</td></tr>
 <tr class="memdesc:a777dbcdf81bca7126ba17c8f2f8fd096"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログのレベル名を取得します  <br /></td></tr>
-<tr class="separator:a777dbcdf81bca7126ba17c8f2f8fd096"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
 <div class="textblock"><p>ログに関する関数の実装。 </p>
 <p>ログに関する列挙子と構造体、関数の宣言と定義。</p>
 <p>&lt;file&gt;<a class="el" href="Log_8h_source.html">Log.h</a>&lt;/file&gt;</p>
 <p>Copyright (c) 2026 junya005</p>
 <p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
-</div><h2 class="groupheader">関数詳解</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">関数詳解</h2>
 <a id="a777dbcdf81bca7126ba17c8f2f8fd096" name="a777dbcdf81bca7126ba17c8f2f8fd096"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a777dbcdf81bca7126ba17c8f2f8fd096">&#9670;&#160;</a></span>GetLogLevelName()</h2>
 
@@ -166,14 +152,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr
         <tr>
           <td class="memname">const char * yamaneko_engine::Log::GetLogLevelName </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a>&#160;</td>
-          <td class="paramname"><em>level</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -198,8 +183,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr
         <tr>
           <td class="memname">void yamaneko_engine::Log::Initialize </td>
           <td>(</td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>capacity</em></td><td>)</td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>capacity</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -224,8 +208,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr
         <tr>
           <td class="memname">void yamaneko_engine::Log::SetMinimumLevel </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a>&#160;</td>
-          <td class="paramname"><em>level</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -246,14 +229,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt; <a class="el" href="structyamaneko__engine_1_1Log_1_1LogEntry.html">LogEntry</a> &gt; yamaneko_engine::Log::Snapshot </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>ログ履歴をコピーして返します。 </p>
@@ -270,25 +261,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr
         <tr>
           <td class="memname">void yamaneko_engine::Log::Write </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a>&#160;</td>
-          <td class="paramname"><em>level</em>, </td>
+          <td class="paramtype"><a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>category</em>, </td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>category</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>message</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>message</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -316,31 +299,22 @@ template&lt;class... Args&gt; </div>
         <tr>
           <td class="memname">void yamaneko_engine::Log::Writef </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceyamaneko__engine_1_1Log.html#abd235ea091bf6423a94baa3bac49f982">LogLevel</a>&#160;</td>
-          <td class="paramname"><em>level</em>, </td>
+          <td class="paramtype"><a class="el" href="#abd235ea091bf6423a94baa3bac49f982">LogLevel</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>category</em>, </td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>category</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::format_string&lt; Args... &gt;&#160;</td>
-          <td class="paramname"><em>format</em>, </td>
+          <td class="paramtype">std::format_string&lt; Args... &gt;</td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -366,11 +340,19 @@ template&lt;class... Args&gt; </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceyamaneko__engine.html">yamaneko_engine</a></li><li class="navelem"><a class="el" href="namespaceyamaneko__engine_1_1Log.html">Log</a></li>
-    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="navelem"><a href="namespaceyamaneko__engine.html">yamaneko_engine</a></li><li class="navelem"><a href="namespaceyamaneko__engine_1_1Log.html">Log</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>
 </body>

@@ -51,3 +51,4 @@ var NAVTREEINDEX =
 
 var SYNCONMSG = 'クリックで同期表示が無効になります';
 var SYNCOFFMSG = 'クリックで同期表示が有効になります';
+var LISTOFALLMEMBERS = '全メンバ一覧';
