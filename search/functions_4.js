@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['readallbytes_0',['ReadAllBytes',['../namespaceyamaneko__engine_1_1FileSystem.html#a27b35fd91bc60c991bf41918f0d8cc8a',1,'yamaneko_engine::FileSystem']]],
-  ['readalltext_1',['ReadAllText',['../namespaceyamaneko__engine_1_1FileSystem.html#a23933ae16d6a82c67096ed59d626f308',1,'yamaneko_engine::FileSystem']]]
+  ['initialize_0',['Initialize',['../namespaceyamaneko__engine_1_1Log.html#a773345fc15bbb6221545d00989932738',1,'yamaneko_engine::Log::Initialize()'],['../namespaceyamaneko__engine_1_1SceneManager.html#a516365c2e836cd223f16b64dde825e04',1,'yamaneko_engine::SceneManager::Initialize()']]],
+  ['isexists_1',['IsExists',['../namespaceyamaneko__engine_1_1FileSystem.html#a5bc7abe7e45e48910dd185e266883b9e',1,'yamaneko_engine::FileSystem']]]
 ];

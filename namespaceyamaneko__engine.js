@@ -22,7 +22,19 @@ var namespaceyamaneko__engine =
     ] ],
     [ "RHI", "namespaceyamaneko__engine_1_1RHI.html", null ],
     [ "Physics", "namespaceyamaneko__engine_1_1Physics.html", null ],
-    [ "SceneManager", "namespaceyamaneko__engine_1_1SceneManager.html", null ],
+    [ "SceneManager", "namespaceyamaneko__engine_1_1SceneManager.html", [
+      [ "AddScene", "namespaceyamaneko__engine_1_1SceneManager.html#ab64c5058ea4e5b28c07ca5c73d781fc8", null ],
+      [ "ChangeScene", "namespaceyamaneko__engine_1_1SceneManager.html#af5f0f97621cc17dcf9091bd937da82f7", null ],
+      [ "ChangeScene", "namespaceyamaneko__engine_1_1SceneManager.html#acf237c4f9a0d3d630104a720cc6b9c12", null ],
+      [ "GetCurrentScene", "namespaceyamaneko__engine_1_1SceneManager.html#afd926ee3951563fdaaff1f17158a4814", null ],
+      [ "Initialize", "namespaceyamaneko__engine_1_1SceneManager.html#a516365c2e836cd223f16b64dde825e04", null ],
+      [ "OnUIRender", "namespaceyamaneko__engine_1_1SceneManager.html#a3d9133b4ebc90bb6084446298434b28c", null ],
+      [ "Render", "namespaceyamaneko__engine_1_1SceneManager.html#a807ac2cc4c0b41bdf6b46cc372cbafaf", null ],
+      [ "RequestSceneChange", "namespaceyamaneko__engine_1_1SceneManager.html#a96e5f1abade31a0a04a7245dc1b1d7b0", null ],
+      [ "RequestSceneChange", "namespaceyamaneko__engine_1_1SceneManager.html#ac3eaf445b2586404b9d0c2be0946dfdb", null ],
+      [ "Shutdown", "namespaceyamaneko__engine_1_1SceneManager.html#abda1b018987632e4b9682734a78ed5ab", null ],
+      [ "Update", "namespaceyamaneko__engine_1_1SceneManager.html#a833cea1880588f15c142ec52f98449b8", null ]
+    ] ],
     [ "Transform", "structyamaneko__engine_1_1Transform.html", null ],
     [ "ViewInfo", "classyamaneko__engine_1_1ViewInfo.html", null ],
     [ "Application", "classyamaneko__engine_1_1Application.html", null ],
@@ -47,6 +59,6 @@ var namespaceyamaneko__engine =
     [ "MeshRenderModule", "classyamaneko__engine_1_1MeshRenderModule.html", null ],
     [ "Module", "classyamaneko__engine_1_1Module.html", null ],
     [ "SubModule", "classyamaneko__engine_1_1SubModule.html", null ],
-    [ "Scene", "classyamaneko__engine_1_1Scene.html", null ],
+    [ "Scene", "classyamaneko__engine_1_1Scene.html", "classyamaneko__engine_1_1Scene" ],
     [ "CreateApplication", "namespaceyamaneko__engine.html#af82d306c6f45252383b54d764d0f99c7", null ]
 ];

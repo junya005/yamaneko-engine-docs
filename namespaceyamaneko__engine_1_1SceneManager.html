@@ -97,25 +97,34 @@ $(function(){initNavTree('namespaceyamaneko__engine_1_1SceneManager.html','','')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 関数</h2></td></tr>
-<tr class="memitem:a516365c2e836cd223f16b64dde825e04" id="r_a516365c2e836cd223f16b64dde825e04"><td class="memItemLeft" align="right" valign="top"><a id="a516365c2e836cd223f16b64dde825e04" name="a516365c2e836cd223f16b64dde825e04"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> &gt; initial_scene)</td></tr>
+<tr class="memitem:a516365c2e836cd223f16b64dde825e04" id="r_a516365c2e836cd223f16b64dde825e04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a516365c2e836cd223f16b64dde825e04">Initialize</a> (std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> &gt; initial_scene)</td></tr>
+<tr class="memdesc:a516365c2e836cd223f16b64dde825e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンマネージャーを初期化します。  <br /></td></tr>
 <tr class="memitem:abda1b018987632e4b9682734a78ed5ab" id="r_abda1b018987632e4b9682734a78ed5ab"><td class="memItemLeft" align="right" valign="top"><a id="abda1b018987632e4b9682734a78ed5ab" name="abda1b018987632e4b9682734a78ed5ab"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Shutdown</b> ()</td></tr>
-<tr class="memitem:ac3eaf445b2586404b9d0c2be0946dfdb" id="r_ac3eaf445b2586404b9d0c2be0946dfdb"><td class="memItemLeft" align="right" valign="top"><a id="ac3eaf445b2586404b9d0c2be0946dfdb" name="ac3eaf445b2586404b9d0c2be0946dfdb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RequestSceneChange</b> (std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> &gt; new_scene)</td></tr>
+<tr class="memdesc:abda1b018987632e4b9682734a78ed5ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンマネージャーのシャットダウン処理を行います。 <br /></td></tr>
+<tr class="memitem:af5f0f97621cc17dcf9091bd937da82f7" id="r_af5f0f97621cc17dcf9091bd937da82f7"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
+<tr class="memitem:af5f0f97621cc17dcf9091bd937da82f7 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5f0f97621cc17dcf9091bd937da82f7">ChangeScene</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:af5f0f97621cc17dcf9091bd937da82f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">クラス名からシーン変更を要求します。  <br /></td></tr>
+<tr class="memitem:acf237c4f9a0d3d630104a720cc6b9c12" id="r_acf237c4f9a0d3d630104a720cc6b9c12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf237c4f9a0d3d630104a720cc6b9c12">ChangeScene</a> (std::string scene_name)</td></tr>
+<tr class="memdesc:acf237c4f9a0d3d630104a720cc6b9c12"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列で指定されたシーン名に基づいてシーン変更を要求します。  <br /></td></tr>
+<tr class="memitem:ac3eaf445b2586404b9d0c2be0946dfdb" id="r_ac3eaf445b2586404b9d0c2be0946dfdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3eaf445b2586404b9d0c2be0946dfdb">RequestSceneChange</a> (std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> &gt; new_scene)</td></tr>
+<tr class="memdesc:ac3eaf445b2586404b9d0c2be0946dfdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">新しいシーンへの切り替えを要求します。  <br /></td></tr>
+<tr class="memitem:a96e5f1abade31a0a04a7245dc1b1d7b0" id="r_a96e5f1abade31a0a04a7245dc1b1d7b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96e5f1abade31a0a04a7245dc1b1d7b0">RequestSceneChange</a> (std::string scene_name)</td></tr>
+<tr class="memdesc:a96e5f1abade31a0a04a7245dc1b1d7b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列で指定されたシーン名に基づいて新しいシーンへの切り替えを要求します。  <br /></td></tr>
 <tr class="memitem:a7a17073c02d2a0be6657a578282c2df4" id="r_a7a17073c02d2a0be6657a578282c2df4"><td class="memItemLeft" align="right" valign="top"><a id="a7a17073c02d2a0be6657a578282c2df4" name="a7a17073c02d2a0be6657a578282c2df4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessTransition</b> ()</td></tr>
-<tr class="memitem:a833cea1880588f15c142ec52f98449b8" id="r_a833cea1880588f15c142ec52f98449b8"><td class="memItemLeft" align="right" valign="top"><a id="a833cea1880588f15c142ec52f98449b8" name="a833cea1880588f15c142ec52f98449b8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> (float deltaTime)</td></tr>
+<tr class="memitem:a833cea1880588f15c142ec52f98449b8" id="r_a833cea1880588f15c142ec52f98449b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a833cea1880588f15c142ec52f98449b8">Update</a> (float deltaTime)</td></tr>
+<tr class="memdesc:a833cea1880588f15c142ec52f98449b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在シーンの更新処理を行います。  <br /></td></tr>
 <tr class="memitem:a807ac2cc4c0b41bdf6b46cc372cbafaf" id="r_a807ac2cc4c0b41bdf6b46cc372cbafaf"><td class="memItemLeft" align="right" valign="top"><a id="a807ac2cc4c0b41bdf6b46cc372cbafaf" name="a807ac2cc4c0b41bdf6b46cc372cbafaf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Render</b> ()</td></tr>
+<tr class="memdesc:a807ac2cc4c0b41bdf6b46cc372cbafaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在シーンの描画処理を行います。 <br /></td></tr>
 <tr class="memitem:a3d9133b4ebc90bb6084446298434b28c" id="r_a3d9133b4ebc90bb6084446298434b28c"><td class="memItemLeft" align="right" valign="top"><a id="a3d9133b4ebc90bb6084446298434b28c" name="a3d9133b4ebc90bb6084446298434b28c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnUIRender</b> ()</td></tr>
-<tr class="memitem:afd926ee3951563fdaaff1f17158a4814" id="r_afd926ee3951563fdaaff1f17158a4814"><td class="memItemLeft" align="right" valign="top"><a id="afd926ee3951563fdaaff1f17158a4814" name="afd926ee3951563fdaaff1f17158a4814"></a>
-<a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCurrentScene</b> ()</td></tr>
-<tr class="memitem:af5f0f97621cc17dcf9091bd937da82f7" id="r_af5f0f97621cc17dcf9091bd937da82f7"><td class="memTemplParams" colspan="2"><a id="af5f0f97621cc17dcf9091bd937da82f7" name="af5f0f97621cc17dcf9091bd937da82f7"></a>
-template&lt;typename T, typename... Args&gt; </td></tr>
-<tr class="memitem:af5f0f97621cc17dcf9091bd937da82f7 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><b>ChangeScene</b> (Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:a3d9133b4ebc90bb6084446298434b28c"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在シーンのUI描画処理を行います。 <br /></td></tr>
+<tr class="memitem:afd926ee3951563fdaaff1f17158a4814" id="r_afd926ee3951563fdaaff1f17158a4814"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd926ee3951563fdaaff1f17158a4814">GetCurrentScene</a> ()</td></tr>
+<tr class="memdesc:afd926ee3951563fdaaff1f17158a4814"><td class="mdescLeft">&#160;</td><td class="mdescRight">現在のシーンを取得します。  <br /></td></tr>
+<tr class="memitem:ab64c5058ea4e5b28c07ca5c73d781fc8" id="r_ab64c5058ea4e5b28c07ca5c73d781fc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab64c5058ea4e5b28c07ca5c73d781fc8">AddScene</a> (std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> &gt; scene)</td></tr>
+<tr class="memdesc:ab64c5058ea4e5b28c07ca5c73d781fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンをシーン管理に追加します。  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
 <div class="textblock"><p>シーンマネージャークラスの実装。 </p>
@@ -126,7 +135,205 @@ template&lt;typename T, typename... Args&gt; </td></tr>
 <p>&lt;file&gt;<a class="el" href="SceneManager_8h_source.html">SceneManager.h</a>&lt;/file&gt;</p>
 <p>Copyright (c) 2026 junya005</p>
 <p>This software is released under the MIT License. <a href="https://github.com/junya005/yamaneko-engine">https://github.com/junya005/yamaneko-engine</a> </p>
-</div></div><!-- contents -->
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">関数詳解</h2>
+<a id="ab64c5058ea4e5b28c07ca5c73d781fc8" name="ab64c5058ea4e5b28c07ca5c73d781fc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab64c5058ea4e5b28c07ca5c73d781fc8">&#9670;&#160;</a></span>AddScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::SceneManager::AddScene </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>シーンをシーン管理に追加します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene</td><td>追加する <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> オブジェクトの一意所有ポインタです。関数呼び出し後、所有権は受け取り側に移動します。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af5f0f97621cc17dcf9091bd937da82f7" name="af5f0f97621cc17dcf9091bd937da82f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f0f97621cc17dcf9091bd937da82f7">&#9670;&#160;</a></span>ChangeScene() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::SceneManager::ChangeScene </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>クラス名からシーン変更を要求します。 </p>
+<dl class="tparams"><dt>テンプレート引数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>遷移先クラスの型</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acf237c4f9a0d3d630104a720cc6b9c12" name="acf237c4f9a0d3d630104a720cc6b9c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf237c4f9a0d3d630104a720cc6b9c12">&#9670;&#160;</a></span>ChangeScene() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::SceneManager::ChangeScene </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>scene_name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>文字列で指定されたシーン名に基づいてシーン変更を要求します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene_name</td><td>変更先のシーン名です。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afd926ee3951563fdaaff1f17158a4814" name="afd926ee3951563fdaaff1f17158a4814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd926ee3951563fdaaff1f17158a4814">&#9670;&#160;</a></span>GetCurrentScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> * yamaneko_engine::SceneManager::GetCurrentScene </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>現在のシーンを取得します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>現在のシーンへのポインタです。</dd></dl>
+
+</div>
+</div>
+<a id="a516365c2e836cd223f16b64dde825e04" name="a516365c2e836cd223f16b64dde825e04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a516365c2e836cd223f16b64dde825e04">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::SceneManager::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>initial_scene</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>シーンマネージャーを初期化します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">initial_scene</td><td>初期シーン</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a96e5f1abade31a0a04a7245dc1b1d7b0" name="a96e5f1abade31a0a04a7245dc1b1d7b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e5f1abade31a0a04a7245dc1b1d7b0">&#9670;&#160;</a></span>RequestSceneChange() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::SceneManager::RequestSceneChange </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>scene_name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>文字列で指定されたシーン名に基づいて新しいシーンへの切り替えを要求します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene_name</td><td>変更先のシーン名です。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac3eaf445b2586404b9d0c2be0946dfdb" name="ac3eaf445b2586404b9d0c2be0946dfdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3eaf445b2586404b9d0c2be0946dfdb">&#9670;&#160;</a></span>RequestSceneChange() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::SceneManager::RequestSceneChange </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>new_scene</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>新しいシーンへの切り替えを要求します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_scene</td><td>切り替え先のシーンを所有権付きで保持する <span class="tt">std::unique_ptr&lt;<a class="el" href="classyamaneko__engine_1_1Scene.html">Scene</a>&gt;</span> です。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a833cea1880588f15c142ec52f98449b8" name="a833cea1880588f15c142ec52f98449b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a833cea1880588f15c142ec52f98449b8">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::SceneManager::Update </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>deltaTime</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>現在シーンの更新処理を行います。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deltaTime</td><td>デルタタイム</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

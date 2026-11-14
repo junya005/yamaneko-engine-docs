@@ -94,20 +94,37 @@ $(function(){initNavTree('classyamaneko__engine_1_1Scene.html','','classyamaneko
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 公開メンバ関数</h2></td></tr>
-<tr class="memitem:ac03769acad52ed7f3fcf0f8259894c1e" id="r_ac03769acad52ed7f3fcf0f8259894c1e"><td class="memItemLeft" align="right" valign="top"><a id="ac03769acad52ed7f3fcf0f8259894c1e" name="ac03769acad52ed7f3fcf0f8259894c1e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddGameObject</b> (std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> &gt; game_object)</td></tr>
-<tr class="memitem:a594bc1ba18cf3ae7a55dac047af58ccc" id="r_a594bc1ba18cf3ae7a55dac047af58ccc"><td class="memItemLeft" align="right" valign="top"><a id="a594bc1ba18cf3ae7a55dac047af58ccc" name="a594bc1ba18cf3ae7a55dac047af58ccc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveGameObject</b> (<a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> *game_object)</td></tr>
-<tr class="memitem:a72ba4558a043215a6b5d21201ace4300" id="r_a72ba4558a043215a6b5d21201ace4300"><td class="memItemLeft" align="right" valign="top"><a id="a72ba4558a043215a6b5d21201ace4300" name="a72ba4558a043215a6b5d21201ace4300"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveGameObjects</b> (std::function&lt; bool(const std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> &gt; &amp;)&gt; predicate)</td></tr>
-<tr class="memitem:a96fd26b5ab38eaabc0a33348aa502a44" id="r_a96fd26b5ab38eaabc0a33348aa502a44"><td class="memItemLeft" align="right" valign="top"><a id="a96fd26b5ab38eaabc0a33348aa502a44" name="a96fd26b5ab38eaabc0a33348aa502a44"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveGameObjectByTag</b> (const std::string &amp;tag)</td></tr>
-<tr class="memitem:a9d999da58376c0fcab1a3489160d3131" id="r_a9d999da58376c0fcab1a3489160d3131"><td class="memItemLeft" align="right" valign="top"><a id="a9d999da58376c0fcab1a3489160d3131" name="a9d999da58376c0fcab1a3489160d3131"></a>
-std::vector&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllGameObjectsByTag</b> (const std::string &amp;tag)</td></tr>
-<tr class="memitem:ab37e558a8ae6c1fa610d570df019967d" id="r_ab37e558a8ae6c1fa610d570df019967d"><td class="memItemLeft" align="right" valign="top"><a id="ab37e558a8ae6c1fa610d570df019967d" name="ab37e558a8ae6c1fa610d570df019967d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> (float deltaTime)</td></tr>
+<tr class="memitem:a81d4c10d3b3fe98cb224d53ccd721b28" id="r_a81d4c10d3b3fe98cb224d53ccd721b28"><td class="memItemLeft" align="right" valign="top"><a id="a81d4c10d3b3fe98cb224d53ccd721b28" name="a81d4c10d3b3fe98cb224d53ccd721b28"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Scene</b> (std::string name)</td></tr>
+<tr class="memitem:ac03769acad52ed7f3fcf0f8259894c1e" id="r_ac03769acad52ed7f3fcf0f8259894c1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac03769acad52ed7f3fcf0f8259894c1e">AddGameObject</a> (std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> &gt; game_object)</td></tr>
+<tr class="memdesc:ac03769acad52ed7f3fcf0f8259894c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲームオブジェクトをシーンに追加します。  <br /></td></tr>
+<tr class="memitem:a594bc1ba18cf3ae7a55dac047af58ccc" id="r_a594bc1ba18cf3ae7a55dac047af58ccc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a594bc1ba18cf3ae7a55dac047af58ccc">RemoveGameObject</a> (<a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> *game_object)</td></tr>
+<tr class="memdesc:a594bc1ba18cf3ae7a55dac047af58ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲームオブジェクトをシーンから削除します。  <br /></td></tr>
+<tr class="memitem:a72ba4558a043215a6b5d21201ace4300" id="r_a72ba4558a043215a6b5d21201ace4300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72ba4558a043215a6b5d21201ace4300">RemoveGameObjects</a> (std::function&lt; bool(const std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> &gt; &amp;)&gt; predicate)</td></tr>
+<tr class="memdesc:a72ba4558a043215a6b5d21201ace4300"><td class="mdescLeft">&#160;</td><td class="mdescRight">条件に一致するゲームオブジェクトをシーンから削除します。  <br /></td></tr>
+<tr class="memitem:a96fd26b5ab38eaabc0a33348aa502a44" id="r_a96fd26b5ab38eaabc0a33348aa502a44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96fd26b5ab38eaabc0a33348aa502a44">RemoveGameObjectByTag</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:a96fd26b5ab38eaabc0a33348aa502a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたタグを持つゲームオブジェクトをシーンから削除します。  <br /></td></tr>
+<tr class="memitem:a9d999da58376c0fcab1a3489160d3131" id="r_a9d999da58376c0fcab1a3489160d3131"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d999da58376c0fcab1a3489160d3131">GetAllGameObjectsByTag</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:a9d999da58376c0fcab1a3489160d3131"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたタグを持つすべてのゲームオブジェクトを取得します。  <br /></td></tr>
+<tr class="memitem:a3cb7bfe66c877258099bc3093c4c3633" id="r_a3cb7bfe66c877258099bc3093c4c3633"><td class="memItemLeft" align="right" valign="top"><a id="a3cb7bfe66c877258099bc3093c4c3633" name="a3cb7bfe66c877258099bc3093c4c3633"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Enter</b> ()</td></tr>
+<tr class="memdesc:a3cb7bfe66c877258099bc3093c4c3633"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンに入るときに呼び出されます。 このメソッドは自動的に呼び出されるため、ユーザーが直接呼び出す必要はありません。 <br /></td></tr>
+<tr class="memitem:a768200100a3e284c71c8ae58298c129b" id="r_a768200100a3e284c71c8ae58298c129b"><td class="memItemLeft" align="right" valign="top"><a id="a768200100a3e284c71c8ae58298c129b" name="a768200100a3e284c71c8ae58298c129b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Exit</b> ()</td></tr>
+<tr class="memdesc:a768200100a3e284c71c8ae58298c129b"><td class="mdescLeft">&#160;</td><td class="mdescRight">終了処理を実行します。 このメソッドは自動的に呼び出されるため、ユーザーが直接呼び出す必要はありません。 <br /></td></tr>
+<tr class="memitem:ab37e558a8ae6c1fa610d570df019967d" id="r_ab37e558a8ae6c1fa610d570df019967d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab37e558a8ae6c1fa610d570df019967d">Update</a> (float deltaTime)</td></tr>
+<tr class="memdesc:ab37e558a8ae6c1fa610d570df019967d"><td class="mdescLeft">&#160;</td><td class="mdescRight">すべてのゲームオブジェクトを更新し、その後に追加の更新処理を実行します。 このメソッドは自動的に呼び出されるため、ユーザーが直接呼び出す必要はありません。  <br /></td></tr>
 <tr class="memitem:acf304d383f9e7bc2fa198439f5d80e4d" id="r_acf304d383f9e7bc2fa198439f5d80e4d"><td class="memItemLeft" align="right" valign="top"><a id="acf304d383f9e7bc2fa198439f5d80e4d" name="acf304d383f9e7bc2fa198439f5d80e4d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Render</b> ()</td></tr>
+<tr class="memdesc:acf304d383f9e7bc2fa198439f5d80e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">保持しているすべてのゲームオブジェクトを描画し、その後に追加のレンダリング処理を実行します。 <br /></td></tr>
+<tr class="memitem:a9098cc788ff373c288e706160a47fec4" id="r_a9098cc788ff373c288e706160a47fec4"><td class="memItemLeft" align="right" valign="top"><a id="a9098cc788ff373c288e706160a47fec4" name="a9098cc788ff373c288e706160a47fec4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UIRender</b> ()</td></tr>
+<tr class="memdesc:a9098cc788ff373c288e706160a47fec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">UIの描画処理を実行します。 <br /></td></tr>
+<tr class="memitem:ab706ad302c8b541d5e6eb65ac1c37c86" id="r_ab706ad302c8b541d5e6eb65ac1c37c86"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab706ad302c8b541d5e6eb65ac1c37c86">GetName</a> () const</td></tr>
+<tr class="memdesc:ab706ad302c8b541d5e6eb65ac1c37c86"><td class="mdescLeft">&#160;</td><td class="mdescRight">シーンの名前を取得します。  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
 <tr class="memitem:af9cc37f657818cf7c3d9b7193b495a6f" id="r_af9cc37f657818cf7c3d9b7193b495a6f"><td class="memItemLeft" align="right" valign="top"><a id="af9cc37f657818cf7c3d9b7193b495a6f" name="af9cc37f657818cf7c3d9b7193b495a6f"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnter</b> ()</td></tr>
 <tr class="memitem:a0b30c13b65b6b7ae7cbd743ca2e0e6fb" id="r_a0b30c13b65b6b7ae7cbd743ca2e0e6fb"><td class="memItemLeft" align="right" valign="top"><a id="a0b30c13b65b6b7ae7cbd743ca2e0e6fb" name="a0b30c13b65b6b7ae7cbd743ca2e0e6fb"></a>
@@ -121,6 +138,234 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnUIRender</b
 <tr class="memitem:a0642b219c30d535bf80a488227f429f6" id="r_a0642b219c30d535bf80a488227f429f6"><td class="memItemLeft" align="right" valign="top"><a id="a0642b219c30d535bf80a488227f429f6" name="a0642b219c30d535bf80a488227f429f6"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestory</b> ()</td></tr>
 </table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">関数詳解</h2>
+<a id="ac03769acad52ed7f3fcf0f8259894c1e" name="ac03769acad52ed7f3fcf0f8259894c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac03769acad52ed7f3fcf0f8259894c1e">&#9670;&#160;</a></span>AddGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::Scene::AddGameObject </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>game_object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ゲームオブジェクトをシーンに追加します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">game_object</td><td>追加する <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> オブジェクトの一意所有ポインタです。関数呼び出し後、所有権は受け取り側に移動します。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9d999da58376c0fcab1a3489160d3131" name="a9d999da58376c0fcab1a3489160d3131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d999da58376c0fcab1a3489160d3131">&#9670;&#160;</a></span>GetAllGameObjectsByTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> * &gt; yamaneko_engine::Scene::GetAllGameObjectsByTag </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたタグを持つすべてのゲームオブジェクトを取得します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>取得するゲームオブジェクトのタグです。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>指定されたタグを持つゲームオブジェクトのポインタのベクターです。</dd></dl>
+
+</div>
+</div>
+<a id="ab706ad302c8b541d5e6eb65ac1c37c86" name="ab706ad302c8b541d5e6eb65ac1c37c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab706ad302c8b541d5e6eb65ac1c37c86">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string yamaneko_engine::Scene::GetName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シーンの名前を取得します。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>シーンの名前。</dd></dl>
+
+</div>
+</div>
+<a id="a594bc1ba18cf3ae7a55dac047af58ccc" name="a594bc1ba18cf3ae7a55dac047af58ccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a594bc1ba18cf3ae7a55dac047af58ccc">&#9670;&#160;</a></span>RemoveGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::Scene::RemoveGameObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> *</td>          <td class="paramname"><span class="paramname"><em>game_object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ゲームオブジェクトをシーンから削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">game_object</td><td>削除する <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> オブジェクトへのポインタです。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a96fd26b5ab38eaabc0a33348aa502a44" name="a96fd26b5ab38eaabc0a33348aa502a44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96fd26b5ab38eaabc0a33348aa502a44">&#9670;&#160;</a></span>RemoveGameObjectByTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::Scene::RemoveGameObjectByTag </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定されたタグを持つゲームオブジェクトをシーンから削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>削除するゲームオブジェクトのタグです。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a72ba4558a043215a6b5d21201ace4300" name="a72ba4558a043215a6b5d21201ace4300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72ba4558a043215a6b5d21201ace4300">&#9670;&#160;</a></span>RemoveGameObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::Scene::RemoveGameObjects </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; bool(const std::unique_ptr&lt; <a class="el" href="classyamaneko__engine_1_1GameObject.html">GameObject</a> &gt; &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>predicate</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>条件に一致するゲームオブジェクトをシーンから削除します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">predicate</td><td>削除するゲームオブジェクトを判定する述語関数です。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab37e558a8ae6c1fa610d570df019967d" name="ab37e558a8ae6c1fa610d570df019967d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab37e558a8ae6c1fa610d570df019967d">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void yamaneko_engine::Scene::Update </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>deltaTime</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>すべてのゲームオブジェクトを更新し、その後に追加の更新処理を実行します。 このメソッドは自動的に呼び出されるため、ユーザーが直接呼び出す必要はありません。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deltaTime</td><td>前回の更新からの経過時間（通常は秒単位）です。各オブジェクトの更新処理に渡されます。</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>このクラス詳解は次のファイルから抽出されました:<ul>
 <li>engine/scene/<a class="el" href="Scene_8h_source.html">Scene.h</a></li>
 </ul>

@@ -36,7 +36,11 @@ var NAVTREE =
     [ "クラス", "annotated.html", [
       [ "クラス一覧", "annotated.html", "annotated_dup" ],
       [ "クラス索引", "classes.html", null ],
-      [ "クラス階層", "hierarchy.html", "hierarchy" ]
+      [ "クラス階層", "hierarchy.html", "hierarchy" ],
+      [ "クラスメンバ", "functions.html", [
+        [ "全て", "functions.html", null ],
+        [ "関数", "functions_func.html", null ]
+      ] ]
     ] ],
     [ "ファイル", "files.html", [
       [ "ファイル一覧", "files.html", "files_dup" ]

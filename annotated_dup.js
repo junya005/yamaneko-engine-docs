@@ -32,6 +32,6 @@ var annotated_dup =
       [ "MeshRenderModule", "classyamaneko__engine_1_1MeshRenderModule.html", null ],
       [ "Module", "classyamaneko__engine_1_1Module.html", null ],
       [ "SubModule", "classyamaneko__engine_1_1SubModule.html", null ],
-      [ "Scene", "classyamaneko__engine_1_1Scene.html", null ]
+      [ "Scene", "classyamaneko__engine_1_1Scene.html", "classyamaneko__engine_1_1Scene" ]
     ] ]
 ];
